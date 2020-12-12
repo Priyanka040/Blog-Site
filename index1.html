@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog site</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- googlefont -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- iconslink -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- Navbar section -->
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo" style="padding-left: 20px;">Blog</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html" onclick="toggleModal();">Home</a></li>
+                <li><a href="#" onclick="toggleModal();">Podcast</a></li>
+                <li><a href="about.html" onclick="toggleModal();">About </a></li>
+                <li><a href="contact.html" onclick="toggleModal();">Contact </a></li>
+              </ul>
+            </div>
+            
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html" onclick="toggleModal();">Home</a></li>
+                <li><a href="#" onclick="toggleModal();">Podcast</a></li>
+                <li><a href="about.html" onclick="toggleModal();">About </a></li>
+                <li><a href="contact.html" onclick="toggleModal();">Contact </a></li>
+          </ul>
+      </section>
+
+
+    <!-- Post section -->
+
+    <section class="post" id="Post">
+        <div class="container" >
+            <p style="margin-top: 50px; margin-bottom: 30px;;">
+
+                <a href="index.html"><span style="padding-left: 20px; padding-bottom: 40px; color: black;"> All Post</span></a> 
+                <a href="#"><span style="color: black; padding-right: 10px;" class="right"><i class="small material-icons">search</i></span></a>
+
+            </p>   
+            <div class="row" style="padding:20px;">
+                <div class="col s m">
+                     <i class="small material-icons" style=" padding-right: 10px;">face</i>
+                </div>
+                                      
+                  <span style="margin: 0; font-weight: 700;">Admin . Nov 17 . 2 min</span>
+                  
+            </div>         
+                <h4 style="padding-left:20px; padding-right: 20px; font-style: italic;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                <p style="padding-left:20px; padding-right: 20px; font-weight: 700;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic quia, qui molestiae deserunt itaque libero porro blanditiis! Culpa deleniti cum velit nulla! Reiciendis, perferendis excepturi.</p>
+
+                <!-- container picture section -->
+            <img src="images/1200px-Zell-Pfarre_Peiner_Kobla_01.jpg"style="padding-left:25px; padding-right: 25px;" alt="" width="100%" height="500px;">
+            <p style="padding-left:35px; padding-right: 35px;font-size: 20px;  font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea molestias deleniti dolorem, veniam aut ab neque ex rem consectetur adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam, voluptatum dicta nemo velit sit sed? Odio in quis fuga?</p>
+            <h3 style="padding-left:35px; padding-right: 35px;font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatum dignissimos modi ullam. Enim dignissimos itaque delectus aspernatur. Aut, aperiam!</h3>
+            <p style="padding-left:35px; padding-right: 35px;font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perspiciatis vero ab at. Minus molestias nobis repellat ipsum illum, cumque consequatur doloribus, aspernatur deserunt, quisquam qui inventore eaque ad culpa alias esse asperiores repellendus iusto praesentium in rem autem blanditiis? Similique libero dolore accusantium corrupti, optio beatae voluptates possimus eveniet.</p>
+            
+            <br>
+            <hr>
+            
+            <div class="row" style="padding-left:35px; padding-right: 35px;">
+                <a class="black-text text-lighten-4  " href="https://www.facebook.com/"><i class="fa fa-facebook" style="font-size: 30px; padding-left: 5px; padding-right: 5px;" aria-hidden="true"></i></a>
+              <a class="black-text text-lighten-4 " href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size: 30px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+              <a class="black-text text-lighten-4 " href="https://github.com/"><i class="fa fa-github" style="font-size: 30px; padding-left: 5px; padding-right: 5px;" aria-hidden="true"></i></a>
+              <a class="black-text text-lighten-4 " href="https://linkedin.com/"><i class="fa fa-linkedin" style="font-size: 30px; padding-left: 5px; padding-right: 5px;" aria-hidden="true"></i></a>
+            </div>
+            <hr>
+            
+            <span style="padding-left:20px; padding-bottom: 40px; color: black; font-weight: 700;"> Views</span> 
+                <a href="#"><span style="color: red; padding-right: 20px;" class="right"><i class="small material-icons">favorite_border</i></span></a>
+
+               <br>
+               <br>
+
+               <h5 style="margin-top: 70px; margin-bottom: 0px;">
+
+                  <span style="padding-left: 20px; padding-bottom: 0px; color: black; font-weight: 700;"> Recent Posts</span> 
+                  <a href="index.html"><span style="font-weight: 700; color: #000000; padding-right: 20px;" class="right">see all</span></a>
+               </h5>
+
+               <!-- ALL Cards section -->
+                <div class="section white center">
+                    <div class="carousel myreviews" style="margin-bottom: 30px;">
+                        <!-- First card -->
+                    <a href="index.html" class="carousel-item">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card-panel teal" style="background-color: #ee6e73 !important;">
+                                   <span class="white-text"><img src="images/1200px-Zell-Pfarre_Peiner_Kobla_01.jpg" width="100%" height="100px" alt=""></span>
+                                   <p class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                   <hr style="color: #fff;">
+                                   <span style="color: white; padding-right: 10px;" class="left"> See </span>
+                                   <span style="color: #fff; padding-right: 10px;" class="right"><i class="small material-icons">favorite_border</i></span>
+                                   <br>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- second card -->
+                    <a href="index.html" class="carousel-item">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card-panel teal" style="background-color: #ee6e73 !important;">
+                                   <span class="white-text"><img src="images/beautiful-Naini-Lake-Nainital.jpg" width="100%" height="100px" alt=""></span>
+                                   <p class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                   <hr style="color: #fff;">
+                                   <span style="color: white; padding-right: 10px;" class="left"> See </span>
+                                   <span style="color: #fff; padding-right: 10px;" class="right"><i class="small material-icons">favorite_border</i></span>
+                                   <br>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- third card -->
+                    <a href="index.html" class="carousel-item">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card-panel teal" style="background-color: #ee6e73 !important;">
+                                   <span class="white-text"><img src="images/Coorg-top-diwali-weekend-getaways.jpg" width="100%" height="100px" alt=""></span>
+                                   <p class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                   <hr style="color: #fff;">
+                                   <span style="color: white; padding-right: 10px;" class="left"> See </span>
+                                   <span style="color: #fff; padding-right: 10px;" class="right"><i class="small material-icons">favorite_border</i></span>
+                                   <br>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- forth card -->
+                    <a href="index.html" class="carousel-item">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card-panel teal" style="background-color: #ee6e73 !important;">
+                                   <span class="white-text"><img src="images/mt.-cook-cover.jpg" width="100%" height="100px" alt=""></span>
+                                   <p class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                   <hr style="color: #fff;">
+                                   <span style="color: white; padding-right: 10px;" class="left"> See </span>
+                                   <span style="color: #fff; padding-right: 10px;" class="right"><i class="small material-icons">favorite_border</i></span>
+                                   <br>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- fifth card -->
+                    <a href="index.html" class="carousel-item">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card-panel teal" style="background-color: #ee6e73 !important;">
+                                   <span class="white-text"><img src="images/e533c4b8d2d2d3798f3271c35ca6e050_XL.jpg" width="100%" height="100px" alt=""></span>
+                                   <p class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                   <hr style="color: #fff;">
+                                   <span style="color: white; padding-right: 10px;" class="left"> See </span>
+                                   <span style="color: #fff; padding-right: 10px;" class="right"><i class="small material-icons">favorite_border</i></span>
+                                   <br>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- sixth card -->
+                    <a href="index.html" class="carousel-item">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card-panel teal" style="background-color: #ee6e73 !important;">
+                                   <span class="white-text"><img src="images/how-to-start-a-travel-blog.png" width="100%" height="100px" alt=""></span>
+                                   <p class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                   <hr style="color: #fff;">
+                                   <span style="color: white; padding-right: 10px;" class="left"> See </span>
+                                   <span style="color: #fff; padding-right: 10px;" class="right"><i class="small material-icons">favorite_border</i></span>
+                                   <br>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer section -->
+    <section class="sfooter">
+        <footer class="page-footer">
+            
+            <div class="footer-copyright">
+              <div class="container">
+              © 2020 Copyright Text
+              <a class="grey-text text-lighten-4 right" href="https://www.facebook.com/"><i class="fa fa-facebook" style="font-size: 30px; padding-left: 5px; padding-right: 5px;" aria-hidden="true"></i></a>
+              <a class="grey-text text-lighten-4 right" href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size: 30px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+              <a class="grey-text text-lighten-4 right" href="https://github.com/"><i class="fa fa-github" style="font-size: 30px; padding-left: 5px; padding-right: 5px;" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </footer>
+    </section>
+</body>
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha512-k2WPPrSgRFI6cTaHHhJdc8kAXaRM4JBFEDo1pPGGlYiOyv4vnA0Pp0G5XMYYxgAPmtmv/IIaQA6n5fLAyJaFMA==" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- jsportion -->
+<script src="js/loader.js"></script>
+</html>

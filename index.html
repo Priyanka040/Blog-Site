@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Site</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- googlefont -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- iconslink -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Navbar section -->
+    <section class="fnavbar">
+      <nav class="nav-fixed">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo" style="padding-left: 20px;">Blog</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#HD" onclick="toggleModal();">Home</a></li>
+              <li><a href="index1.html" onclick="toggleModal();">Podcast</a></li>
+              <li><a href="about.html" onclick="toggleModal();">About </a></li>
+              <li><a href="contact.html" onclick="toggleModal();">Contact </a></li>
+            </ul>
+          </div>
+          
+        </nav>
+      
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="#HD" onclick="toggleModal();">Home</a></li>
+              <li><a href="index1.html" onclick="toggleModal();">Podcast</a></li>
+              <li><a href="about.html" onclick="toggleModal();">About </a></li>
+              <li><a href="contact.html" onclick="toggleModal();">Contact </a></li>
+        </ul>
+    </section>
+
+  <!-- Homesection -->
+    <section class="Home" id="HD">
+        <div class="container">
+          <p style="margin-top: 50px; margin-bottom: 30px;;"><a href="index.html"><span style="padding-left: 20px; padding-bottom: 40px; color: black;"> All Post</span></a> 
+            <a href="#"><span style="color: black; padding-right: 10px;" class="right"><i class="small material-icons">search</i></span></a></p>
+            <div class="row">
+                <!-- first left colom -->
+                <div class="col s12 m6">
+                  <div class="card">
+                    <div class="card-image" style="padding: 5px">
+                     <a href="index1.html"> <img src="images/1200px-Zell-Pfarre_Peiner_Kobla_01.jpg"> </a>
+                      <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col s2 m2">
+                                 <i class="small material-icons" style=" padding-right: 10px;">face</i>
+                            </div>
+                                                  
+                              <span style="margin: 0; font-weight: 700;">Admin</span>
+                              <p class="size" style="font-size: 15px; padding-left: 40px; font-weight: 700;">Nov 17 . 2 min</p>
+                        </div>
+                        <a href="index1.html">
+                        <h5 class="black-text" style="font-weight: 700;">Lorem ipsum dolor sit.</h5>
+                      <p class="black-text">I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis doloremque vitae, vero unde autem sunt illum deleniti error, hic minus quibusdam soluta officia ratione sit non est quasi. Aliquam, tempora! Laborum, explicabo adipisci. Cupiditate voluptatibus sint eius. Molestiae, enim illum sint laudantium, cum facere nesciunt ex porro ducimus, doloribus laboriosam?</effectively></p>
+                    </a>
+                    </div>
+                    <div class="card-action">
+                        <div class="row">
+                            <div class="col s2" style="font-size: 15px; font-weight:700; padding: 5px; padding-top: 10px;">views</div>
+                            <div class="col s8" ><a href="index1.html"><input type="text" name="" id="" placeholder="write comment"></a></div>
+                            <div class="col s2" style="padding-top: 10px;;"><i class="small material-icons">favorite_border</i></div>
+                        </div>
+                      
+                    </div>
+                  </div>
+                </div>
+
+<!-- first right colom -->
+                <div class="col s12 m6" id="second">
+                    <div class="card">
+                      <div class="card-image" style="padding: 5px">
+                        <a href=""><img src="images/beautiful-Naini-Lake-Nainital.jpg"></a>
+                        <span class="card-title">Card Title</span>
+                      </div>
+                      <div class="card-content">
+                        <div class="row">
+                            <div class="col s2 m2">
+                                 <i class="small material-icons" style=" padding-right: 10px;">face</i>
+                            </div>
+                                                  
+                              <span style="margin: 0; font-weight: 700;">Admin</span>
+                              <p class="size" style="font-size: 15px; padding-left: 40px; font-weight: 700;">Nov 17 . 2 min</p>
+                        </div>
+                        <a href="#">
+                        <h5 class="black-text" style="font-weight: 700;">Lorem ipsum dolor sit.</h5>
+                        <p class="black-text">I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                      </a>
+                      </div>
+                      <div class="card-action">
+                        <div class="row">
+                            <div class="col s2" style="font-size: 15px; font-weight:700; padding: 5px; padding-top: 10px;">views</div>
+                            <div class="col s8" ><a href="#"><input type="text" name="" id="" placeholder="write comment"></a></div>
+                            <div class="col s2" style="padding-top: 10px;;"><i class="small material-icons">favorite_border</i></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+<!-- second row -->
+              <div class="row">
+                  <!-- second left colom -->
+                <div class="col s12 m6">
+                  <div class="card">
+                    <div class="card-image" style="padding: 5px">
+                     <a href="#"> <img src="images/Coorg-top-diwali-weekend-getaways.jpg"></a>
+                      <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col s2 m2">
+                                 <i class="small material-icons" style=" padding-right: 10px;">face</i>
+                            </div>
+                                                  
+                              <span style="margin: 0; font-weight: 700;">Admin</span>
+                              <p class="size" style="font-size: 15px; padding-left: 40px; font-weight: 700;">Nov 17 . 2 min</p>
+                        </div>
+                        <a href="#">
+                          <h5 class="black-text" style="font-weight: 700;">Lorem ipsum dolor sit.</h5>
+                          <p class="black-text">I am a very simple card. I am good at containing small bits of information.
+                          I am convenient because I require little markup to use effectively.</p>
+                        </a>
+                      </div>
+                    <div class="card-action">
+                        <div class="row">
+                            <div class="col s2" style="font-size: 15px; font-weight:700; padding: 5px; padding-top: 10px;">views</div>
+                            <div class="col s8" ><a href="#"><input type="text" name="" id="" placeholder="write comment"></a></div>
+                            <div class="col s2" style="padding-top: 10px;;"><i class="small material-icons">favorite_border</i></div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- second right colom -->
+
+                <div class="col s12 m6">
+                    <div class="card">
+                      <div class="card-image" style="padding: 5px">
+                        <a href="#"><img src="images/mt.-cook-cover.jpg"></a>
+                        <span class="card-title">Card Title</span>
+                      </div>
+                      <div class="card-content">
+                        <div class="row">
+                            <div class="col s2 m2">
+                                 <i class="small material-icons" style=" padding-right: 10px;">face</i>
+                            </div>
+                                                  
+                              <span style="margin: 0; font-weight: 700;">Admin</span>
+                              <p class="size" style="font-size: 15px; padding-left: 40px; font-weight: 700;">Nov 17 . 2 min</p>
+                        </div>
+                        <a href="index1.html">
+                          <h5 class="black-text" style="font-weight: 700;">Lorem ipsum dolor sit.</h5>
+                        <p class="black-text">I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis doloremque vitae, vero unde autem sunt illum deleniti error, hic minus quibusdam soluta officia ratione sit non est quasi. Aliquam, tempora! Laborum, explicabo adipisci. Cupiditate voluptatibus sint eius. Molestiae, enim illum sint laudantium, cum facere nesciunt ex porro ducimus, doloribus laboriosam?</effectively></p>
+                      </a>
+                    </div>
+                      <div class="card-action">
+                        <div class="row">
+                            <div class="col s2" style="font-size: 15px; font-weight:700; padding: 5px; padding-top: 10px;">views</div>
+                            <div class="col s8" ><a href="#"><input type="text" name="" id="" placeholder="write comment"></a></div>
+                            <div class="col s2" style="padding-top: 10px;;"><i class="small material-icons">favorite_border</i></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+<!-- third row  -->
+
+<div class="row">
+    <!-- third left colom -->
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image" style="padding: 5px">
+          <a href="#"><img src="images/e533c4b8d2d2d3798f3271c35ca6e050_XL.jpg"></a>
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <div class="col s2 m2">
+                     <i class="small material-icons" style=" padding-right: 10px;">face</i>
+                </div>
+                                      
+                  <span style="margin: 0; font-weight: 700;">Admin</span>
+                  <p class="size" style="font-size: 15px; padding-left: 40px; font-weight: 700;">Nov 17 . 2 min</p>
+            </div>
+            <a href="index1.html">
+              <h5 class="black-text" style="font-weight: 700;">Lorem ipsum dolor sit.</h5>
+            <p class="black-text">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis doloremque vitae, vero unde autem sunt illum deleniti error, hic minus quibusdam soluta officia ratione sit non est quasi. Aliquam, tempora! Laborum, explicabo adipisci. Cupiditate voluptatibus sint eius. Molestiae, enim illum sint laudantium, cum facere nesciunt ex porro ducimus, doloribus laboriosam?</effectively></p>
+          </a>
+        </div>
+        <div class="card-action">
+            <div class="row">
+                <div class="col s2" style="font-size: 15px; font-weight:700; padding: 5px; padding-top: 10px;">views</div>
+                <div class="col s8" ><a href="#"><input type="text" name="" id="" placeholder="write comment"></a></div>
+                <div class="col s2" style="padding-top: 10px;;"><i class="small material-icons">favorite_border</i></div>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+
+<!-- third right colom -->
+    <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image" style="padding: 5px">
+            <a href="#"><img src="images/how-to-start-a-travel-blog.png"></a>
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <div class="row">
+                <div class="col s2 m2">
+                     <i class="small material-icons" style=" padding-right: 10px;">face</i>
+                </div>
+                                      
+                  <span style="margin: 0; font-weight: 700;">Admin</span>
+                  <p class="size" style="font-size: 15px; padding-left: 40px; font-weight: 700;">Nov 17 . 2 min</p>
+            </div>
+            <a href="#">
+              <h5 class="black-text" style="font-weight: 700;">Lorem ipsum dolor sit.</h5>
+              <p class="black-text">I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </a>
+          </div>
+          <div class="card-action">
+            <div class="row">
+                <div class="col s2" style="font-size: 15px; font-weight:700; padding: 5px; padding-top: 10px;">views</div>
+                <div class="col s8" ><a href="#"><input type="text" name="" id="" placeholder="write comment"></a></div>
+                <div class="col s2" style="padding-top: 10px;;"><i class="small material-icons">favorite_border</i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+        </div>
+    </section>
+
+  <!-- footer section -->
+    <section class="sfooter">
+        <footer class="page-footer">
+            
+            <div class="footer-copyright">
+              <div class="container">
+              © 2020 Copyright Text
+              <a class="grey-text text-lighten-4 right" href="https://www.facebook.com/"><i class="fa fa-facebook" style="font-size: 30px; padding-left: 5px; padding-right: 5px;" aria-hidden="true"></i></a>
+              <a class="grey-text text-lighten-4 right" href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size: 30px; padding-left: 10px; padding-right: 10px;" aria-hidden="true"></i></a>
+              <a class="grey-text text-lighten-4 right" href="https://github.com/"><i class="fa fa-github" style="font-size: 30px; padding-left: 5px; padding-right: 5px;" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </footer>
+    </section>
+</body>
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha512-k2WPPrSgRFI6cTaHHhJdc8kAXaRM4JBFEDo1pPGGlYiOyv4vnA0Pp0G5XMYYxgAPmtmv/IIaQA6n5fLAyJaFMA==" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- jsportion -->
+<script src="js/loader.js"></script>
+
+</html>
